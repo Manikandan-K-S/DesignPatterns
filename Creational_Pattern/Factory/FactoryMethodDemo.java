@@ -55,7 +55,6 @@ class EmailNotification implements Notification {
 
         } catch (MessagingException e) {
             System.err.println("Failed to send email");
-            e.printStackTrace();
         }
     }
 }
